@@ -1,6 +1,5 @@
 import React from "react";
 import "./_search-input.scss";
-import "../../public/img/react.png";
 
 const SearchInput = (): JSX.Element => {
   return (
