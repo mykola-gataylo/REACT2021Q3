@@ -2,7 +2,7 @@ import React from "react";
 import "./_search-input.scss";
 import "../../public/img/react.png";
 
-export const SearchInput = (): JSX.Element => {
+const SearchInput = (): JSX.Element => {
   return (
     <>
       <input
