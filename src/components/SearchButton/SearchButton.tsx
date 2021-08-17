@@ -1,6 +1,5 @@
 import React from "react";
 import "./_search-button.scss";
-import "../../public/img/react.png";
 
 const SearchButton = (): JSX.Element => {
   return (
