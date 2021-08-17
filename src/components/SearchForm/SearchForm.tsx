@@ -1,4 +1,3 @@
-/* eslint-disable react/require-render-return */
 import React from "react";
 import "./_search-form.scss";
 import "../../public/img/react.png";
