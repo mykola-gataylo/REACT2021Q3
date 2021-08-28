@@ -6,7 +6,7 @@ import "./_cards-list.scss";
 
 const CardsList = (): JSX.Element => {
   return (
-    <div className="cards-list">
+    <ul className="cards-list">
       {dogs.map((dog) => {
         return (
           <Card
@@ -21,7 +21,7 @@ const CardsList = (): JSX.Element => {
           />
         );
       })}
-    </div>
+    </ul>
   );
 };
 
