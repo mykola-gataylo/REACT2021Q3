@@ -22,8 +22,8 @@ const Card: React.FC<Dogs> = ({
   size,
 }: Dogs) => {
   return (
-    <div className="card">
-      <img src={`../../public/img/${imgSrc}`} alt="dog" />
+    <li className="card">
+      <img src={`./public/img/${imgSrc}`} alt="dog" />
 
       <div className="card__info-block">
         <h2 className="card__name">Name: {name} </h2>
@@ -33,7 +33,7 @@ const Card: React.FC<Dogs> = ({
         <p className="card__size">Size: {size}</p>
         <p className="card__id">ID: {id}</p>
       </div>
-    </div>
+    </li>
   );
 };
 
